@@ -90,10 +90,8 @@ button:hover{
     }
 }
 
-@media (max-width: 480px) {
-    form {
-        width: 80%;
-    }
+@media (max-width: 400px) {
+    
     body{
         font-size: 12px;
     }
