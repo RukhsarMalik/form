@@ -85,6 +85,9 @@ button:hover{
     button{
         font-size: 0.9rem;
     }
+    input[type= "text"], input[type= "email"], input[type= "tel"]{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -102,5 +105,8 @@ button:hover{
     }
     button{
         font-size: 0.8rem;
+    }
+    input[type= "text"], input[type= "email"], input[type= "tel"]{
+        font-size: 12px;
     }
 }
