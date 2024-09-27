@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div class="items">
+                <label for="name">Full Name: </label> 
+                <input type="text" name="name" id="name" placeholder="Bill Gates" required>
+            </div>
+            
+            <div class="items">
+                <label for="photo">Upload Your Profile Picture:</label>
+                <input type="file" name="Photo" id="photo" required>
+            </div>
+            
+            <div class="items">
+                <label for="Email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="billgates@gmail.com" required>
+            </div>
+
+            <div class="items">
+                <label for="phoneNumber">Phone No:</label>
+                <input type="tel" name="phone" id="phone" placeholder="03123456789" required>
+            </div>
+
+            <div class="items">
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address" placeholder="House No XYZ " required>
+            </div>
+
+            <div class="items">
+                <label for="linkedin-id">LinkedIn ID (if any):</label>
+                <input type="text" name="linkedin-id" id="linkedin-id" placeholder="www.LinkedIn/billgates">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+
+            <div class="items">
+                <label for="degree">Degree:</label>
+                <input type="text" name="degree" id="degree" placeholder="BSCS">
+            </div>
+
+            <div class="items">
+                <label for="institute">Institute:</label>
+                <input type="text" name="institute" id="institute" placeholder="ABC University">
+            </div>
+
+            <div class="items">
+                <label for="year">Passing Year:</label>
+                <input type="text" name="year" id="year" placeholder="2015-2018">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Work Experience</legend>
+
+            <div class="items">
+                
+            <label for="company">Company: </label>
+            <input type="text" name="company" id="company" placeholder="XYZ company">
+            </div>
+
+            <div class="items">
+                
+            <label for="position">Position:</label>
+            <input type="text" name="position" id="position" placeholder="Software Engineer">
+            </div>
+
+            <div class="items">
+                <label for="duration">Duration:</label>
+                <input type="text" name="duration" id="duration" placeholder="2015-2019">
+            </div>
+
+            <div class="items">
+                <label for="responsibility">Responsibilities:</label>
+                <input type="text" name="responsibility" id="responsibility" placeholder="Developed Software">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+
+            <div class="skill-category">
+                
+                <input type="text" name="skill" id="skill">
+                
+                <input type="text" name="skill" id="skill">
+
+                <input type="text" name="skill" id="skill">
+                
+                <input type="text" name="skill" id="skill">
+
+            </div>
+
+
+        </fieldset>
+        <div class="generate-button">
+            <button>Generate Resume</button>
+        </div>
+    </form>
+
+    
+
+</body>
+</html>
